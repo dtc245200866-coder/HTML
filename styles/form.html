@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<body>
+     <form style="width: 450px;
+            margin: 50px auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;">
+            <label style="display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;" for="yourname">Họ và tên:</label>
+            <input style="width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;" type="text" id="yourname" name="yourname"
+                   placeholder="Nhập họ và tên">
+                    <label style="display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;" for="email">Email:</label>
+            <input style="width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;" type="email" id="email" name="email"
+                   placeholder="Nhập email">
+                    <label style="display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;">Sở thích:</label>
+
+            <div class="hobby">
+                <label>
+                    <input style="width: auto;" type="checkbox" name="hobby" value="music">
+                    Âm nhạc
+                </label>
+
+                <label>
+                    <input style="width: auto;" type="checkbox" name="hobby" value="game">
+                    Game
+                </label>
+                   <div class="buttons">
+                <input style="background-color: #2196F3;
+            color: white; padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;" type="submit" value="Gửi thông tin">
+                <input style="background-color: #777;
+            color: white; padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;" type="reset" value="Nhập lại">
+            </div>
+
+        </form>
+
+</body>
+</html>
